@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+.search{
+    /* margin-top: 30px; */
+    margin: auto;
+}
+
+.left-side1{
+    border: 3px solid pink;
+    width: 240px;
+    margin-left: 20px;
+    /* position: relative; */
+    /* display: flex; */
+    /* color: darkgrey; */
+}
+
+.list1{
+   
+    width:90%;
+    padding-left: 20px;
+    ma
+    
+}
+
+.list-group-item{
+     border: 3px solid blue;
+     /* margin-bottom: 8px; */
+}
+
+.music1{
+    margin-bottom: 20px;
+}
+
+.accordion-item{
+     border: 3px solid blue;
+    padding-left: 17px;
+    
+}
+
+
+
+/* Main content */
+
+.thumbnails1{
+    border: 3px solid greenyellow;
+    position: absolute;
+    top: 10px;
+    margin-left: 19.3%;
+}
+
+/* .left-side1{
+    display: inline-block;
+    border: 3px solid aquamarine;
+} */
+
+.navbar1{
+    position: absolute;
+    border: 3px solid orange;
+    margin-left: 19.3%;
+    top:68%;
+    backdrop-filter: blur(5px);
+    width: 61.5%;
+    
+}
+
+.music-list{
+    position: absolute;
+    border:3px solid seagreen;
+     margin-left: 19.3%;
+    top: 80%;
+    width: 61.5%;
+}
