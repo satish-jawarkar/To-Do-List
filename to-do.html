@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div class="to-do">
+        <div class="main-content">
+        <h3 class="h3"> To Do List <img src="./images/todo.png" alt="image" height="25px;" width="25px;" style="border-radius: 50px;"></h3>
+            <div class="input-box">
+                <input type="text" id="inputbox" placeholder="Enter any tasks here!">
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked"> first task</li>
+                <li> second task</li> -->
+            </ul>
+        </div>
+     </div>
+    </div>
+    <script src="./todo.js"></script>
+</body>
+</html>

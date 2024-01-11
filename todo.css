@@ -1,0 +1,98 @@
+
+
+*{
+    /* margin: auto;
+    padding: auto; */
+    /* box-sizing: border-box; */
+    font-family: poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background: linear-gradient(135deg, #4568DC, #B06AB3); */
+    background-image: url("./images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    justify-content: center;
+    padding: 30px;
+    /* border: 3px dashed red; */
+    margin: 4.85%;
+}
+.to-do{
+    /* border: 3px solid blue; */
+    /* background: wheat; */
+    backdrop-filter: blur(20px);
+    width: 65%;
+    height: auto;
+    min-height: 450px;
+    /* display: flex; */
+    margin: auto;
+    /* min-width: 70vh; */
+    justify-content: center;
+    padding-left: auto;
+    
+    /* padding-left: 230px; */
+}
+
+.main-content{
+    /* border: 3px dashed orange; */
+    width: 87%;
+    margin: auto;
+    padding-top: 8px;
+    
+}
+
+ul li.checked{
+    text-decoration: line-through;
+    color: grey;
+}
+
+#inputbox{
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;   
+    height: 28px;
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 5px; 
+    height: 33px;
+}
+
+button:hover{
+    background-color: rgb(207, 107, 107);
+    box-shadow: rgb(150, 33, 33) 0px 8px 12px, rgba(243, 211, 68, 0.22) 0px 7px 7px;
+}
+
+.h3{
+    /* border: 3px dashed cyan; */
+    /* margin: auto; */
+    text-align: center;
+    color: rgba(255, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+li{
+    color: aliceblue;
+}
+/* .h3:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 8px 12px, rgba(243, 211, 68, 0.22) 0px 7px 7px;
+} */
+
+span{
+    position: absolute;
+    text-align: center;
+    /* list-style: 40px; */
+    width: 40px;
+    height: 40px; 
+    right: 22%;  
+}
